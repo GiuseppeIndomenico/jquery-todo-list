@@ -1,0 +1,29 @@
+ul {
+    padding-left: 0;
+}
+
+li {
+
+    font-size: 1.5rem;
+    list-style: none;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.check {
+    border: 1px solid black;
+    padding: 3px 6px;
+    margin-right: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.checked {
+    background-color: green;
+    border: 1px solid green !important;
+    color: white !important;
+}
