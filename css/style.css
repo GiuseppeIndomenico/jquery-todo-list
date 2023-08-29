@@ -6,7 +6,6 @@ li {
 
     font-size: 1.5rem;
     list-style: none;
-    text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,6 +19,7 @@ li {
     border-radius: 50%;
     font-size: 12px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .checked {
